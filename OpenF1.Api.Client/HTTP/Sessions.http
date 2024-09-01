@@ -1,0 +1,7 @@
+@year=2024
+
+GET https://api.openf1.org/v1/sessions?country_code=USA&year=2023
+
+###
+
+GET {{HostAddress}}sessions?year={{year}}
