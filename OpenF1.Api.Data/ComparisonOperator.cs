@@ -1,6 +1,6 @@
-﻿namespace OpenF1.Api.Data.Filters
+﻿namespace OpenF1.Api.Data
 {
-    public enum Operator : byte
+    public enum ComparisonOperator : byte
     {
         Equal,
         GreaterThan,

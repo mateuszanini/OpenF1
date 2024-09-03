@@ -1,7 +1,4 @@
-﻿using OpenF1.Api.Client;
-using OpenF1.Api.Data;
-using OpenF1.Api.Data.Filters;
-
+```csharp
 var client = new HttpClient()
 {
     BaseAddress = new("https://api.openf1.org/v1/")
@@ -16,5 +13,4 @@ var meetingFilter = new MeetingFilter()
 };
 
 var meetings = await openF1Client.GetMeetingsAsync(meetingFilter);
-
-Console.ReadKey();
+```
